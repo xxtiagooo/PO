@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+[remote "origin"]
+	url = ssh://git@gitlab.rnl.tecnico.ulisboa.pt/leic-a-po25/prj/097.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	vscode-merge-base = origin/master
+	gk-merge-base = origin/master
+[branch "bugfix/register-user-exception"]
+	vscode-merge-base = origin/master
+	remote = origin
+	merge = refs/heads/bugfix/register-user-exception
+[branch "backup/master-before-merge"]
+	remote = origin
+	merge = refs/heads/master
