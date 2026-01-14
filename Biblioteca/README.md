@@ -13,3 +13,6 @@ See details on the course pages.
 Note that not all the code has to be working for all deliveries (penalties may apply).
 Check the assessment conditions on the course pages.
 
+- clear && cd /home/tiago/PO/097 && make - s && cd /home/tiago/PO/po-tester && ./run.sh 097
+
+
