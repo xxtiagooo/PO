@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "bci-app/src"
+    ],
+    "java.project.outputPath": "bci-app/bin",
+    "java.project.referencedLibraries": [
+        "${workspaceFolder}/po-uilib/po-uilib.jar",
+        "${workspaceFolder}/bci-core/bci-core.jar"
+    ]
+}
